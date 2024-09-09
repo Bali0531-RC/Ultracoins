@@ -1,0 +1,39 @@
+# License
+license:
+  key: "YOUR_LICENSE_KEY"
+
+# Log file path
+log:
+  file_path: "plugins/Ultracoins/transactions.log"
+
+# Database
+database:
+  host: localhost
+  port: 3306
+  name: ultracoins
+  username: root
+  password: password
+
+# Messages
+messages:
+  database_success: '&a[Ultracoins] Database connection successful.'
+  database_fail: '&c[Ultracoins] Database connection failed.'
+  plugin_enabled: '&a[Ultracoins] Ultracoins plugin has been enabled!'
+  plugin_disabled: '&c[Ultracoins] Ultracoins plugin has been disabled!'
+  welcome_back: '&eWelcome back! You have %coins% coins.'
+  only_players: '&cOnly players can use this command.'
+  your_coins: '&eYou have %coins% coins.'
+  target_not_found: '&cTarget player not found.'
+  invalid_amount: '&cInvalid amount.'
+  not_enough_coins: '&cYou do not have enough coins.'
+  paid_coins: '&eYou paid %amount% coins to %target%.'
+  received_coins: '&eYou received %amount% coins from %sender%.'
+  no_permission: '&cYou do not have permission to use this command.'
+  gave_coins: '&eYou gave %amount% coins to %target%.'
+  received_give_coins: '&eYou received %amount% coins from %sender%.'
+  balance: '&e%target% has %coins% coins.'
+  reloaded: '&aConfiguration reloaded successfully.'
+  removed_coins: '&eYou removed %amount% coins from %target%.'
+  received_remove_coins: '&e%s removed %amount% coins from you.'
+  cleared_coins: '&eYou cleared the coins of %target%.'
+  received_clear_coins: '&e%s cleared your coins.'
