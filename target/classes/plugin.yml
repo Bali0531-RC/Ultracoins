@@ -1,0 +1,14 @@
+name: Ultracoins
+version: '1.0'
+main: net.bali0531.ultracoins.Ultracoins
+api-version: '1.20'
+prefix: [ HEIS ]
+authors: [ Bali0531 ]
+description: Basic Coins plugin
+website: https://bali0531.hu
+softdepend: [PlaceholderAPI]
+commands:
+  uc:
+    description: Main command for Ultracoins plugin
+    usage: /<command> [help|pay|give|bal|reload|remove|clear] <player> <amount>
+    aliases: [Ultracoins]
