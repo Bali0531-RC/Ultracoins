@@ -116,7 +116,7 @@ public final class Ultracoins extends JavaPlugin implements Listener {
                     getLogger().info("Your license key is valid!");
                     return true;
                 } else {
-                    getLogger().severe("Your license key is invalid! Create a ticket in our discord server to get one.");
+                    getLogger().severe("Your license key is invalid! Create a ticket in our discord server to get one. https://discord.gg/KUg3rxTvXA");
                     return false;
                 }
             }

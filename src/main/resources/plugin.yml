@@ -2,7 +2,7 @@ name: Ultracoins
 version: '1.0'
 main: net.bali0531.ultracoins.Ultracoins
 api-version: '1.20'
-prefix: [ HEIS ]
+prefix: [ ULTRACOINS ]
 authors: [ Bali0531 ]
 description: Basic Coins plugin
 website: https://bali0531.hu
