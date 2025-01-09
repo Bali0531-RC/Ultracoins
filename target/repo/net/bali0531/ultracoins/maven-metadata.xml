@@ -3,11 +3,11 @@
   <groupId>net.bali0531</groupId>
   <artifactId>ultracoins</artifactId>
   <versioning>
-    <release>1.1-nl</release>
+    <release>1.1</release>
     <versions>
       <version>1.1</version>
       <version>1.1-nl</version>
     </versions>
-    <lastUpdated>20240918154424</lastUpdated>
+    <lastUpdated>20250109172011</lastUpdated>
   </versioning>
 </metadata>

